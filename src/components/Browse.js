@@ -13,7 +13,8 @@ const Browse = () => {
   useNowPlayingMovies(); //all movies data
   usePopularMovies(); //popular movies data
   useUpcomingMovies(); //upcoming movies data
-  useTopRatedMovies(); //toprated movies data
+  useTopRatedMovies(); //toprated movies data\
+
   return (
     <div>
       <Header />
