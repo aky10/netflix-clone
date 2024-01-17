@@ -1,13 +1,14 @@
 import Browse from "./Browse";
 import Login from "./Login";
 import {
-  HashRouter as createBrowserRouter,
+  createHashRouter,
+  createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
 import WatchTrailer from "./WatchTrailer";
 
 const Body = () => {
-  const appRouter = createBrowserRouter([
+  const appRouter = createHashRouter([
     {
       path: "/",
       element: <Login />,
