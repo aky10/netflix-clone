@@ -2,7 +2,7 @@
   "homepage": "https://aky10.github.io/netflix-clone",
   "name": "netflix-gpt",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-tailwind/react": "^2.1.8",
     "@testing-library/jest-dom": "^5.17.0",
