@@ -1,6 +1,6 @@
 import Browse from "./Browse";
 import Login from "./Login";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { HashRouter as createBrowserRouter, RouterProvider } from "react-router-dom";
 import WatchTrailer from "./WatchTrailer";
 
 const Body = () => {
