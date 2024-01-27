@@ -9,7 +9,7 @@ const GptSearchBar = () => {
 
   const handleSearchClick = async () => {
     const data = await fetch(
-      "https://api.themoviedb.org/3/search/movie?query=student&include_adult=false&language=en-US&page=1",
+      "https://api.themoviedb.org/3/search/movie?query="+searchMovie.current.value+"&include_adult=false&language=en-US&page=1",
       API_OPTIONS
     );
 
